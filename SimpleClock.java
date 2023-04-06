@@ -24,7 +24,7 @@ public class SimpleClock extends JFrame {
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             this.setTitle("Digital Clock");
             this.setLayout(new FlowLayout());
-            this.setSize(350, 220);
+            this.setSize(370, 240);
             this.setResizable(false);
     
             timeFormat = new SimpleDateFormat("hh:mm:ss a");
